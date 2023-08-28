@@ -1,0 +1,10 @@
+@mixin after($width: 2vw) {
+  position: absolute;
+  content: '';
+  background-color: $red;
+  width: $width;
+  height: 5px;
+  border-radius: 2px;
+  bottom: -5px;
+  left: 0;
+}
